@@ -1,0 +1,116 @@
+.slider {
+  position: relative;
+}
+
+.slider .priv_arrow {
+  position: absolute;
+  bottom: -50px;
+  left: 30%;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background: #354052;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider .next_arrow {
+  position: absolute;
+  bottom: -50px;
+  right: 30%;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background: #354052;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider .priv_arrow_index {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  left: -30px;
+  z-index: 100;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background: #354052;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider .next_arrow_index {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  z-index: 100;
+  margin: auto;
+  right: -30px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background: #354052;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+.slider .tai {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  z-index: 100;
+  margin: auto;
+  right: -30px;
+  color: black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+/* .slider .priv_arrow_index:hover,
+.slider .priv_arrow_index:focus,
+.slider .next_arrow_index:hover,
+.slider .next_arrow_index:focus {
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+.slider .priv_arrow_index:hover:before,
+.slider .priv_arrow_index:focus:before,
+.slider .next_arrow_index:hover:before,
+.slider .next_arrow_index:focus:before {
+  opacity: 1;
+}
+.slider .priv_arrow_index:before,
+.slider .next_arrow_index:before {
+  opacity: 0.25;
+}
+.slider .priv_arrow_index:before,
+.slider .next_arrow_index:before {
+  font-family: "slick";
+  font-size: 30px;
+  line-height: 1;
+
+  z-index: 20;
+
+  opacity: 0.75;
+  color: #354052;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */

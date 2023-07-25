@@ -1,0 +1,21 @@
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(100%);
+  }
+  
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(100%);
+  }
+}
+
+#wa {
+  animation-name: zoom-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+

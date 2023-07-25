@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+  .amd-logo {
+    transform: scale(1.3);
+    margin-top: 11px;
+    margin-left: 15px;
+  }
+  .break,
+  .learn {
+    font-size: 5px;
+  }
+  .title {
+    font-size: 12px;
+    padding: 0 60px;
+    font-weight: 500;
+    line-height: 17px;
+  }
+  .desc {
+    text-align: left;
+  }
+  a#edit-profile {
+    margin-right: 5px;
+    transform: scale(0.8);
+    margin-top: -35px;
+  }
+  #profile {
+    margin-bottom: -10px;
+  }
+  .program-card {
+    margin-top: 10px;
+  }
+  .title-program {
+    margin-bottom: 0;
+  }
+}
+
+#edit-profile {
+  text-decoration: none;
+  margin-bottom: 30px;
+  align-self: flex-end;
+  border-color: white;
+  border-style: solid;
+  align-items: center;
+  margin-right: 80px;
+  padding-left: 4px;
+  padding-top: 4px;
+  padding-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border-radius: 20px;
+  background-color: transparent;
+}

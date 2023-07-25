@@ -1,0 +1,23 @@
+.program{
+    padding-top: 18px; 
+    padding-left: 22px;
+}
+.program .card{
+    width: 217px;
+    height:80px;
+}
+.program .card .card-body{
+    padding: 0px;
+    margin: 7px 12px;
+}
+.program .card .card-body .card-title{
+    font-size: 16px;
+    font-weight: 700; 
+    line-height: 22px;
+}
+.program .card .card-body .card-text{
+    font-size: 10px; 
+    font-weight: 400; 
+    line-height: 14px; 
+    margin-bottom: 0px;
+}
