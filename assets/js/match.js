@@ -76,7 +76,7 @@ $(document).ready(function () {
 						showConfirmButton: false,
 						timer: 2000,
 					});
-					$("#ClubTable").DataTable().ajax.reload();
+					$("#clubTable").DataTable().ajax.reload();
 					$("#ClubModal").modal("hide");
 				} else {
 					var error = response.message;
@@ -126,7 +126,7 @@ $(document).ready(function () {
 						showConfirmButton: false,
 						timer: 2000,
 					});
-					$("#ClubTable").DataTable().ajax.reload();
+					$("#clubTable").DataTable().ajax.reload();
 					$("#MatchModal").modal("hide");
 				} else {
 					var error = response.message;
